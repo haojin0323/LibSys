@@ -9,7 +9,7 @@ using namespace std;
 
 void Book::write()
 {
-    cout << "please input 7 string: ";
+    cout << "please input 7 string: ";  // 根据 inf 的数据数量提示输入信息
     for (int i = 0; i < inf; i++)
     {
         cin >> book[i];
