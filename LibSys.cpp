@@ -4,7 +4,19 @@
 // @description  Library information management system (Object oriented programming C++)
 // @license      MIT License
 
-#include "LibSys.h"
+#include <iostream>
+#include <string>
+#define inf 7	// 
+
+class Book
+{
+public:
+    Book() {}
+    void write();
+    void display();
+private:
+    std::string book[inf];
+};
 using namespace std;
 
 void Book::write()
