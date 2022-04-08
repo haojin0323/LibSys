@@ -1,8 +1,8 @@
 main: admin.o book.o user.o 
-	gcc admin.o book.o user.o -o
+	g++ admin.o book.o user.o -o
 admin.o: admin.cpp
-	gcc admin.cpp
+	g++ admin.cpp
 book.o: book.cpp
-	gcc book.cpp
+	g++ book.cpp
 user.o: user.cpp
-	gcc user.cpp
+	g++ user.cpp
