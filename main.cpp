@@ -4,11 +4,15 @@
 // @description  Library information management system (Object oriented programming C++)
 // @license      MIT License
 
-#include "main.h"
-#include "book.cpp"
+#include "libsys.h"
+using namespace std;
 
-int main()
-{
-
+void User::menu() {
+    cout << "----------MENU----------" << endl;
+    cout << "1.User Sign in." << endl;
+    cout << "2.Admin Sign in." << endl;
+}
+int main() {
+    User a;
     return 0;
 }
